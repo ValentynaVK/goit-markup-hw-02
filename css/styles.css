@@ -1,22 +1,205 @@
 ul {
     list-style-type: none;
 }
-a{
+a {
     text-decoration: none;
-}
-button{
-    cursor: pointer;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    color:var(--SLATE, #434455);
 }
 .logo{
-    font-family: 'Raleway', sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 116.667%; 
-letter-spacing: 0.54px;
-text-transform: uppercase;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-plus{
 color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height:1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.menu-link{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.menu-link:active{
+    color:var(--IRIS, #4D5AE5);
+}
+.contacts-link{
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.2em;
+} 
+.contacts-link:active,
+.contacts-link:hover,
+.contacts-link:focus{
+    color:var(--IRIS, #4D5AE5);
+}
+.main-item{
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height:1.07;
+letter-spacing: 0.02em;
+background: var(--NAVY-BLUE, #2E2F42);
+}
+button {
+    cursor: pointer;
+    background: var(--IRIS, #4D5AE5);
+}
+
+.b-text{
+    color: var(--WHITE, #FFF);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+.advant{
+
+}
+.strategy{
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em;
+}
+.goal{
+    color: var(--SLATE, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.2em;
+}
+.punctuality{
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em;
+}
+.key-message{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.diligence{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+.research{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.technologies{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+.digital{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.team{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.2em;
+text-transform: capitalize;
+}
+
+.mark{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.2em;
+}
+.designer{
+    color: var(--SLATE, #434455);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.2em;
+}
+.tom{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+.developer{
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.camila{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+.marketing{
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+.daniel{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
+.design{
+    color: var(--SLATE, #434455);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
 }
