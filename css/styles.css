@@ -34,7 +34,8 @@ text-transform: uppercase;
     line-height: 1.5;
     letter-spacing: 0.2em;
 }
-.menu-link:active{
+.menu-link:active,
+.menu-link:hover{
     color:var(--IRIS, #4D5AE5);
 }
 .contacts-link{
@@ -61,6 +62,9 @@ background: var(--NAVY-BLUE, #2E2F42);
 button {
     cursor: pointer;
     background: var(--IRIS, #4D5AE5);
+}
+button:hover{
+    background: var(--OCEAN, #404BBF);
 }
 
 .b-text{
