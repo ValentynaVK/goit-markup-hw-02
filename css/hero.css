@@ -11,12 +11,10 @@
   color: #fff;
 }
 .hero-btn {
-  letter-spacing: 0.04em;
-  color: #fff;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  max-width: 169px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
 }

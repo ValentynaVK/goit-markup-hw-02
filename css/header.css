@@ -5,15 +5,16 @@
 .main-nav-list {
 }
 .main-nav-item {
+}
+
+.main-nav-link {
   font-weight: 500;
   color: #2e2f42;
 }
 
-.main-nav-item :hover,
-.main-nav-item:focus {
+.main-nav-link:hover,
+.main-nav-link:focus {
   color: #404bbf;
-}
-.main-nav-link {
 }
 .contacts {
 }
@@ -23,10 +24,10 @@
   color: #434455;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
-  color: #404bbf;
+.contacts-link {
 }
 
-.contacts-link {
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
